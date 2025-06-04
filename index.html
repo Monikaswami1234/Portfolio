@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+  
+</head>
+<body>
+
+   <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+ <!---<header>
+    Welcome to My Portfolio
+  </header>-->
+
+ <div class="main-container">
+    <div class="image-container">
+      <img src="images/me.jpg" alt="Profile Image" />
+    </div>
+
+    <div class="content">
+      <h1>Hi, I'm <span class="highlight">Monika swami.</span></h1>
+      <h2>A <span class="typing" id="role"></span></h2>
+      <p style="color: #f0f0f0;">I'm a passionate tech enthusiast with hands-on experience as a Frontend Designer and Data Analyst. I love crafting intuitive user interfaces and transforming raw data into actionable insights. With a strong eye for design and a data-driven mindset, I enjoy building digital experiences that are both beautiful and meaningful.</p>
+      <div class="icons">
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="buttons">
+        <button class="read-more">Read More</button>
+        <button class="contact-me">Contact Me</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Skills-->
+  <section class="skills-section">
+    <h2 class="skills-heading">SKILLS</h2>
+    <div class="card">
+      <div class="skills-grid">
+        <div class="skill fade-in"><img src="images/python.jpeg" alt="Python"/><p>Python</p></div>
+        <div class="skill fade-in"><img src="images/html.jpeg" alt="HTML5"/><p>HTML5</p></div>
+        <div class="skill fade-in"><img src="images/css.jpeg" alt="CSS3"/><p>CSS3</p></div>
+        <div class="skill fade-in"><img src="images/my.svg" alt="MySQL"/><p>MySQL</p></div>
+        <div class="skill fade-in"><img src="images/script.jpeg" alt="PostgreSQL"/><p>Shell Scripting</p></div>
+       </div>
+
+      <div class="skills-grid">
+         <div class="skill fade-in"><img src="images/bootstap.jpeg" alt="Shell Scripting"/><p>Bootstrap</p></div>
+        <div class="skill fade-in"><img src="images/numpy.jpeg" alt="Python"/><p>NumPy</p></div>
+        <div class="skill fade-in"><img src="images/pandas.jpeg" alt="HTML5"/><p>Pandas</p></div>
+        <div class="skill fade-in"><img src="images/mat.jpg" alt="CSS3"/><p>Matplotlib</p></div>
+        <div class="skill fade-in"><img src="images/seaborn.jpeg" alt="MySQL"/><p>Seaborn</p></div>
+        </div>
+
+      <div class="skills-grid">
+        <div class="skill fade-in"><img src="images/scikit.jpg" alt="Python"/><p>Scikit-learn</p></div>
+        <div class="skill fade-in"><img src="images/wordpress.jpeg" alt="HTML5"/><p>WordPress</p></div>
+        <div class="skill fade-in"><img src="images/looker.jpeg" alt="CSS3"/><p>Looker Studio</p></div>
+        <div class="skill fade-in"><img src="images/power.jpeg" alt="MySQL"/><p>Power BI</p></div>
+        <div class="skill fade-in"><img src="images/canva.jpeg" alt="PostgreSQL"/><p>Canva</p></div>
+       </div>
+
+             <div class="skills-grid">
+        <div class="skill fade-in"><img src="images/joomla.jpeg" alt="Python"/><p>Joomla</p></div>
+        <div class="skill fade-in"><img src="images/excel.jpeg" alt="HTML5"/><p>Excel</p></div>
+        <div class="skill fade-in"><img src="images/crm.jpeg" alt="CSS3"/><p>CRM</p></div>
+        <div class="skill fade-in"><img src="images/c.jpeg" alt="MySQL"/><p>C</p></div>
+        <div class="skill fade-in"><img src="images/ml.jpeg" alt="PostgreSQL"/><p>Machine learning</p></div>
+       </div>
+
+              <div class="skills-grid">
+        <div class="skill fade-in"><img src="images/pos.png" alt="Python"/><p>PostgreSQL</p></div>
+        <div class="skill fade-in"><img src="images/gti.png" alt="HTML5"/><p>GIT</p></div>
+        <div class="skill fade-in"><img src="images/tansor.png" alt="CSS3"/><p>TransorFlow</p></div>
+        <div class="skill fade-in"><img src="images/tab.jpeg" alt="MySQL"/><p>Tableau</p></div>
+        <div class="skill fade-in"><img src="images/stati.jpeg" alt="PostgreSQL"/><p>Statistics </p></div>
+       </div>
+    </div>
+  </section>
+  
+
+
+
+
+
+
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+
+<script src="animation.js"></script>
+</body>
+</html>
