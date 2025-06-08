@@ -213,6 +213,7 @@ p {
 .skill p {
   font-size: 1rem;
   text-align: center;
+  
 }
 
 /* Animation Delay for each */
@@ -229,3 +230,201 @@ p {
     transform: translateY(0);
   }
 }
+
+.header {
+      background-color: #00796B;
+      color: white;
+      padding: 30px 20px;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .project-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: 15px;
+      width: 22rem;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: scale(1.03);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project-content {
+      padding: 15px;
+    }
+
+    .project-content h3 {
+      color: #00796B;
+      margin: 10px 0;
+      font-size: 20px;
+    }
+
+    .project-content p {
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #112d4e;
+      border-radius: 10px;
+    }
+
+    .top-section {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .box {
+      background-color: #0d1b2a;
+      padding: 20px;
+      flex: 1;
+      margin: 10px;
+      border-radius: 8px;
+      min-width: 250px;
+    }
+
+    .box h3 {
+      color: #00ff88;
+      margin-bottom: 15px;
+    }
+
+    .icons {
+      display: flex;
+      gap: 15px;
+      font-size: 30px;
+    }
+
+    .icons i {
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .icons i:hover {
+      transform: scale(1.2);
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      background-color: #1b2a41;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      resize: none;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #ccc;
+    }
+
+    .half-width {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    button {
+      background-color: #00ff88;
+      color: #0d1b2a;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #00e676;
+    }
+
+    a.email-link {
+      color: #00ff88;
+      text-decoration: none;
+    }
+
+    a.email-link:hover {
+      text-decoration: underline;
+    }
+
+     .experience-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 1.5rem 0;
+      justify-content: center;
+    }
+
+    .experience-card {
+      background-color: #083358;
+      color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      width: 45%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .experience-card h2 {
+      color: #00d26a;
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .experience-card .date {
+      font-size: 16px;
+      margin: 8px 0;
+      color: #eee;
+    }
+
+    .experience-card .role {
+      font-style: italic;
+      margin-bottom: 12px;
+      color: #e0e0e0;
+    }
+
+    .experience-card ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .experience-card ul li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+      .experience-card {
+        width: 100%;
+      }
+    }
