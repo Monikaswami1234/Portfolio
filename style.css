@@ -51,7 +51,7 @@ nav a:hover {
 }
 
 .image-container img {
-  width: 100px;
+  width: 28rem;
   height: auto;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
@@ -99,10 +99,15 @@ p {
   margin-right: 20px;
   background: white;
   color: #0077b5;
-  padding: 10px;
   border-radius: 50%;
   display: inline-block;
   transition: transform 0.3s ease;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
 }
 
 .icons a:nth-child(2) {
@@ -316,7 +321,7 @@ p {
     }
 
     .icons i {
-      color: white;
+      /* color: white; */
       cursor: pointer;
       transition: transform 0.2s;
     }
