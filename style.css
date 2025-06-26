@@ -54,12 +54,13 @@ nav a:hover {
   width: 28rem;
   height: auto;
   border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
-      padding-left: 135px;
+  box-shadow: 0 0 20px rgba(0,0,0,0);
+      padding-left: 120px;
 }
 
 .content {
-  max-width: 600px;
+  max-width: 774px;
+  padding-left: 106px;
 }
 
 h1 {
